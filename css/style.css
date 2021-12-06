@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: red;
+    width: 300px;
+    height: 400px;
+}
+
+.box-2 {
+    background: green;
+    width: 100px;
+    height: 200px;
+}

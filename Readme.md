@@ -1,1 +1,1 @@
-Esse projeto é uma calculadora Javascript que calcula equações simples.
+Esse projeto é uma calculadora Javascript que faz equações simples.
