@@ -1,3 +1,8 @@
 * {
     margin: 0px;    
 }
+
+.calculator-flex {
+    display: flex;
+    justify-content: center;
+}
