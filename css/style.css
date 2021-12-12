@@ -1,8 +1,6 @@
-* {
-    margin: 0px;    
+.container{
+    background: lightGrey;
+    width: max-content;
+    margin: auto;
 }
 
-.calculator-flex {
-    display: flex;
-    justify-content: center;
-}
