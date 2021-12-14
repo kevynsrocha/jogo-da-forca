@@ -1,10 +1,51 @@
-.container{
-    background: lightGrey;
-    width: max-content;
-    margin: auto;
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
 }
 
-.box {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101110;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* flexbox */
+h1 {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
