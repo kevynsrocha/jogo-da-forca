@@ -1,51 +1,89 @@
-body, ul, li {
+* {
     margin: 0px;
-    padding: 0px;
 }
 
+body {
+    background: #201f1f;
+    width: 1349px;
+    height: 600px;
+}
+
+/* section titulo */
 .header {
+    width: 100%;
+    height: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #101110;
-    padding: 20px;
-    flex-wrap: wrap;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
+/* titulo */
+#title {
+    color: #ccccca;
 }
 
-.menu {
+/* section calculadora */
+.calculator {
+
+    
+}
+
+/* container principal calculadora */
+.box-main {
     display: flex;
+    background: #ffffff;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 390px;
 }
 
-.menu li {
-    list-style: none;
-    color: #fff;
-    margin-left: 10px;
+/* div da tela */
+.box-screen {
+    margin-top: 10px;
+    width: 95%;
+    height: 20%;
+    background: #d4d1d1;
 }
 
-/* flexbox */
-h1 {
-    text-align: center;
-}
-
-.flex {
+/* div dos botoes */
+.box-buttons {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 95%;
+    height: 75%;
+    justify-content: space-around;
 }
 
-.flex > div {
-    flex: 1 1 200px;
-    margin: 10px;
+/* botoes */
+.btn {
+    width:110px;
+    height:70px;
+    background: #a09f9e;
+
 }
 
-img {
-    max-width: 100%;
-    display: block;
+/* botao delete */
+.btn-delete {
+    width:110px;
+    height:70px;
+    background: #cc0606;
+
 }
 
+/* botao de sinal igual */
+.btn-equal {
+    width:110px;
+    height:70px;
+    background: #1eaf0b;
+
+}
+
+/* botoes operadores */
+.btn-operator {
+    width:110px;
+    height:70px;
+    background: #d8a20e;
+}
